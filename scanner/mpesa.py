@@ -5,8 +5,8 @@ import base64
 
 def initiate_stk_push(phone, amount):
     # 1. Your Credentials (Get these from Daraja)
-    consumer_key = "7MORBUnhHKp25bedkwusY8GKI2wLttZq4NWpGZlDyekch8cM"
-    consumer_secret = "BQhm3cKIAxNIwWLglwvpDfXR7rA2QNCF7oak8DoQ7bU52AqMhXoIhHfgxwSnuiIm"
+    consumer_key = ""
+    consumer_secret = ""
     
     # 2. Get the Access Token
     auth_url = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
