@@ -126,7 +126,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
 
 
-ALLOWED_HOSTS = ['unabruptly-uneuphemistic-ora.ngrok-free.dev', '127.0.0.1', 'localhost', 'https://paper-digitizer-l4xc.onrender.com']
+
 
 # Email Settings (TutaMail example)
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
